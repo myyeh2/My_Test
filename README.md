@@ -85,7 +85,14 @@ $$
 
 ##
 
-$\color{red} M(t) = \begin{bmatrix} 19 & -1.5 & -2+13.3\times sin(0.85 \times t) \\\\ -1 & 15 & 0 \\\\ -10-2.7 \times cos(1.3 \times t) & -3 & 27 \end{bmatrix}$  
+$ 
+M(t) = 
+\begin{bmatrix} 
+19 & -1.5 & -2+13.3 \times sin(0.85 \times t) \\\\ 
+-1 & 15 & 0 \\\\ 
+-10-2.7 \times cos(1.3 \times t) & -3 & 27  
+\end{bmatrix}
+$    
  
 ###
 
