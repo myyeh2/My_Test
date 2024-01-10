@@ -62,7 +62,18 @@
 
 ## $通解 ：$ 
 
-## $$\begin{bmatrix}\dot{y}(t) \\\\ y(t)\end{bmatrix} =\begin{bmatrix}\dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} + \begin{bmatrix}\dot{y}_p(t)\\y_p(t)\end{bmatrix}$$
+## 
+$$
+\begin{bmatrix}
+\dot{y}(t) \\\\ y(t)
+\end{bmatrix} =
+\begin{bmatrix}
+\dot{y}_h(t) \\\\ y_h(t)
+\end{bmatrix} + 
+\begin{bmatrix}
+\dot{y}_p(t) \\\\ y_p(t)
+\end{bmatrix}
+$$
 
 ---  
 
