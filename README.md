@@ -95,11 +95,23 @@ $$
  
 ###
 
-$\color{red} K(t) = \begin{bmatrix} 60 & -8 & -2-332 \times sin(1.37 \times t) \\\\ -16 & 180 & -120 \\\\ -20 & -100+579 \times cos(0.24 \times t) & 300 \end{bmatrix}$
+$$K(t) = 
+\begin{bmatrix}
+60 & -8 & -2-332 \times sin(1.37 \times t) \\\\ 
+-16 & 180 & -120 \\\\ 
+-20 & -100+579 \times cos(0.24 \times t) & 300 
+\end{bmatrix}
+$$  
 
 ###
 
-$\color{red} C(t) = \begin{bmatrix} 35 & -1-13.2 \times sin(0.35 \times t) & -0.5 \\\\ -1.5 & 40 & -1.5 \\\\-1.2+22.5 \times cos(1.95 \times t) & -1.5 & 75 \end{bmatrix} $
+$$C(t) = 
+\begin{bmatrix}
+35 & -1-13.2 \times sin(0.35 \times t) & -0.5 \\\\ 
+-1.5 & 40 & -1.5 \\\\ 
+-1.2+22.5 \times cos(1.95 \times t) & -1.5 & 75 
+\end{bmatrix}
+$$  
 
 #    
 
