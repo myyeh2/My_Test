@@ -81,7 +81,9 @@ $$
 
 ## 
 
-$\begin{bmatrix}\dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} =  Hexp(D, Q, t) \times d_h$
+$
+\begin{bmatrix}\dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} =  Hexp(D, Q, t) \times d_h
+$
 
 #  $實 \quad 例 \quad 計 \quad 算 \quad :$
 
