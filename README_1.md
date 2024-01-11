@@ -63,17 +63,8 @@
 # $通\qquad解 ：$ 
 
 ## 
-$$
-\begin{bmatrix}
-\dot{y}(t) \\\\ y(t)
-\end{bmatrix} =
-\begin{bmatrix}
-\dot{y}_h(t) \\\\ y_h(t)
-\end{bmatrix} + 
-\begin{bmatrix}
-\dot{y}_p(t) \\\\ y_p(t)
-\end{bmatrix}
-$$
+
+$$\begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix} = \begin{bmatrix} \dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} + \begin{bmatrix} \dot{y}_p(t) \\\\ y_p(t)\end{bmatrix}$$
 
 ---  
 
@@ -81,7 +72,7 @@ $$
 
 ## 
 
-$$\begin{bmatrix}\dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} =  Hexp(D, Q, t) \times d_h$$
+$$\begin{bmatrix} \dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} =  Hexp(D, Q, t) \times d_h$$
 
 #  $實 \quad 例 \quad 計 \quad 算 \quad :$
 
@@ -89,76 +80,33 @@ $$\begin{bmatrix}\dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} =  Hexp(D, Q, t) \times d
 
 ##
 
-$$M(t) = 
-\begin{bmatrix}
-19 & -1.5 & -2+13.3 \times sin(0.85 \times t) \\\\ 
--1 & 15 & 0 \\\\ 
--10-2.7 \times cos(1.3 \times t) & -3 & 27  
-\end{bmatrix}
-$$  
+$$M(t) = \begin{bmatrix} 19 & -1.5 & -2+13.3 \times sin(0.85 \times t) \\\\-1 & 15 & 0 \\\\ -10-2.7 \times cos(1.3\times t) & -3 & 27\end{bmatrix}$$  
  
 ###
 
-$$K(t) = 
-\begin{bmatrix}
-60 & -8 & -2-332 \times sin(1.37 \times t) \\\\ 
--16 & 180 & -120 \\\\ 
--20 & -100+579 \times cos(0.24 \times t) & 300 
-\end{bmatrix}
-$$  
+$$K(t) = \begin{bmatrix} 60 & -8 & -2-332 \times sin(1.37 \times t) \\\\ -16 & 180 & -120 \\\\ -20 & -100+579 \times cos(0.24 \times t) & 300 \end{bmatrix}$$  
 
 ###
 
-$$C(t) = 
-\begin{bmatrix}
-35 & -1-13.2 \times sin(0.35 \times t) & -0.5 \\\\ 
--1.5 & 40 & -1.5 \\\\ 
--1.2+22.5 \times cos(1.95 \times t) & -1.5 & 75 
-\end{bmatrix}
-$$  
+$$C(t) = \begin{bmatrix} 35 & -1-13.2 \times sin(0.35 \times t) & -0.5 \\\\ -1.5 & 40 & -1.5 \\\\ -1.2+22.5 \times cos(1.95 \times t) & -1.5 & 75 \end{bmatrix}$$  
 
 #    
 
-$$A(t) = 
-\begin{bmatrix} 
--M_i(t) \times C(t) & -M_i(t) \times K(t) \\\\ I & O 
-\end{bmatrix}
-$$
+$$A(t) = \begin{bmatrix} -M_i(t) \times C(t) & -M_i(t) \times K(t) \\\\ I & O \end{bmatrix}$$
 
 ###  $$A(t) \times Q(t) = Q(t) \times D(t) \quad  => \quad A(t) = Q(t) \times D(t) \times Q_i(t)$$  
 
 ### 
 
-$$
-\begin{bmatrix} 
-\ddot{y}_h(t) \\\\ \dot{y}_h(t) 
-\end{bmatrix} = A(t) \times 
-\begin{bmatrix} 
-\dot{y}_h(t) \\\\ y_h(t) 
-\end{bmatrix}
-$$
+$$\begin{bmatrix} \ddot{y}_h(t) \\\\ \dot{y}_h(t)\end{bmatrix} = A(t) \times \begin{bmatrix} \dot{y}_h(t) \\\\ y_h(t) \end{bmatrix}$$  
 
 ### 
 
-$$
-\begin{bmatrix} 
-\dot{y}_h(t) \\\\ y_h(t) 
-\end{bmatrix} = Hexp(D, Q, t)  \times d
-$$
+$$\begin{bmatrix} \dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} = Hexp(D, Q, t)  \times d$$
 
 ### 
 
-$$
-\begin{bmatrix}
-\dot{y}(t) \\\\ y(t) 
-\end{bmatrix} = 
-\begin{bmatrix} 
-\dot{y}_h(t) \\\\ y_h(t) 
-\end{bmatrix} + 
-\begin{bmatrix} 
-\dot{y}_p(t) \\\\ y_p(t) 
-\end{bmatrix}
-$$
+$$\begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix} = \begin{bmatrix} \dot{y}_h(t) \\\\ y_h(t) \end{bmatrix} + \begin{bmatrix} \dot{y}_p(t) \\\\ y_p(t) \end{bmatrix}$$
 
 ##  
 
