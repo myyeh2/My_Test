@@ -46,7 +46,7 @@
 
 ---  
 
-# $$時\quad頻\quad數\quad值\quad計\quad算$$   
+# $時\quad頻\quad數\quad值\quad計\quad算$   
 
 ### $$Precisely \quad Time-Frequency \quad Numerical \quad Computations$$  
 
@@ -60,7 +60,7 @@
 
 ## $$由非齊次微分方程式，得到\quad \ddot{y}_p(t)、\dot{y}_p(t)、y_p(t)$$   
 
-## $通解 ：$ 
+## $通\qquad解 ：$ 
 
 ## 
 $$
@@ -87,7 +87,7 @@ $$
 \end{bmatrix} =  H_e(D, Q, t) \times d_h
 $$
 
-#  $$實 \quad 例 \quad 計 \quad 算 \quad :$$
+#  $實 \quad 例 \quad 計 \quad 算 \quad :$
 
 ### $$詳細的【CSharp】程式碼和輸出圖表，請參考本儲存庫中的檔案$$ 
 
@@ -129,7 +129,7 @@ $$A(t) =
 \end{bmatrix}
 $$
 
-###  $A(t) \times Q(t) = Q(t) \times D(t) \quad  => \quad A(t) = Q(t) \times D(t) \times Q_i(t)$  
+###  $$A(t) \times Q(t) = Q(t) \times D(t) \quad  => \quad A(t) = Q(t) \times D(t) \times Q_i(t)$$  
 
 ### 
 
