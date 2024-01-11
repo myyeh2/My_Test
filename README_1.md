@@ -76,7 +76,7 @@ $$\begin{bmatrix} \dot{y}_h(t) \\\\ y_h(t)\end{bmatrix} =  Hexp(D, Q, t) \times 
 
 #  $實 \quad 例 \quad 計 \quad 算 \quad :$
 
-### $$詳細的\quad CSharp \quad 程式碼和輸出圖表，請參考本儲存庫中的檔案$$ 
+### $$詳細的\quad CSharp \quad程式碼和輸出圖表，請參考本儲存庫中的檔案$$ 
 
 ##
 
